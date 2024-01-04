@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "isolatedModules": true,
+    "moduleResolution": "Bundler",
+    "lib": ["esnext", "DOM"],
+    "target": "esnext",
+    "module": "ES6",
+    "types": [],
+    "declaration": true,
+    "outDir": ".temp/types",
+    "emitDeclarationOnly": true,
+    "resolvePackageJsonExports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true
+  },
+  "include": [
+    "src/**.ts"
+  ]
+}
